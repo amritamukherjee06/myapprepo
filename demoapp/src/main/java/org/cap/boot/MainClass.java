@@ -1,5 +1,7 @@
 package org.cap.boot;
 
+import org.cap.model.Student;
+
 public class MainClass {
 
 	public static void main(String[] args) {
@@ -11,6 +13,14 @@ public class MainClass {
 
 		SalesClass class1 = new SalesClass();
 		class1.display();
+		
+		Student student = new Student();
+		student.setStudentId(124);
+		student.setFirstName("Tom");
+		student.setLastName("Jerry");
+		System.out.println(student);
+		
+		System.out.println("test my code");
 
 	}
 
