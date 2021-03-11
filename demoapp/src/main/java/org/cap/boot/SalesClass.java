@@ -9,11 +9,16 @@ public class SalesClass {
 
 	public void display() {
 
+		int ans = 1;
+
 		System.out.println("***********integer list*****************");
-		for (int i=0;i<list.size();i++)
+		for (int i = 0; i < list.size(); i++) {
+			ans *= list.get(i);
 			System.out.println(list.get(i));
+		}
+		System.out.println(ans);
 	}
-	
+
 	public void show() {
 		System.out.println("Show Method");
 	}
