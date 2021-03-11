@@ -20,7 +20,7 @@ public class MainClass {
 		student.setLastName("Jerry");
 		System.out.println(student);
 		
-		System.out.println("test my code");
+		
 
 	}
 
