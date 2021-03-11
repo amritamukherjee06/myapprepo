@@ -9,9 +9,14 @@ public class SalesClass {
 
 	public void display() {
 
+		int sum =0;
 		System.out.println("***********integer list*****************");
-		for (int i=0;i<list.size();i++)
-			System.out.println(list.get(i));
+		for (int num:list) {
+			
+			sum+=num;
+			System.out.println(num);
+		}
+			System.out.println(sum);
 	}
 	
 	public void show() {
