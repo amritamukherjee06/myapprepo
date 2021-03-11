@@ -10,12 +10,15 @@ public class SalesClass {
 	public void display() {
 
 		int ans = 1;
-
+        int sum =0;
 		System.out.println("***********integer list*****************");
-		for (int i = 0; i < list.size(); i++) {
-			ans *= list.get(i);
-			System.out.println(list.get(i));
+		for (int num : list) {
+
+			sum += num;
+			ans*=num;
+			System.out.println(num);
 		}
+		System.out.println(sum);
 		System.out.println(ans);
 	}
 
